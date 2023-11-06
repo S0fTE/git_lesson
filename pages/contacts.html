@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+</head>
+
+<body>
+  <div>
+    <header class="header">
+      <h1>Контакти</h1>
+      <nav>
+        <a href="../index.html">Головна</a>
+        <a href="./articles.html">Статті</a>
+        <a href="./catalog.html">Каталог</a>
+        <a href="./contacts.html">Контакти</a>
+        <a href="./gallery.html">Галерея</a>
+        <a href="./page-nav.html">Навігація</a>
+        <a href="./registration.html">Реєстрація</a>
+      </nav>
+    </header>
+  </div><hr>
+
+  <main>
+    <div>
+      <form action="https://tests.fomenko.top/echo/index.php" method="get">
+        <fieldset>
+          <legend>Залиште контактні данні</legend>
+          <div>
+            <label for="name">Ім'я</label>
+            <input id="name" name="name" placeholder="Ім'я" type="text">
+          </div>
+          <div>
+            <label for="secondname">Прізвище</label>
+            <input id="secondname" name="secondname" placeholder="Прізвище" type="text">
+          </div>
+          <div>
+            <label for="phone">Телефон</label>
+            <input required id="phone" name="phone" placeholder="Телефон" type="tel" value="(+380)">
+          </div>
+          <div>
+            <label for="email">Єлектронна адреса</label>
+            <input required id="email" name="email" placeholder="Email" type="email">
+          </div>
+          <div>
+            <label for="question">Задайте питання</label>
+            <textarea id="question" name="question" rows="5" cols="30"></textarea>
+          </div>
+          <div>
+            <button type="submit">Надіслати</button>
+          </div>
+          <div>
+            <button type="reset">Очистити</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <address>Адреса: м.Одеса. вул.Проспект Шевченко 11</address>
+    <div>
+      <img src="../assets/img/contact-map.png" alt="Адреса на карті" title="Адреса на карті" width="600">
+    </div>
+  </main>
+
+
+  <footer>
+    <p>© Kurinaki Yevgen</p>
+  </footer>
+
+</body>
+
+</html>

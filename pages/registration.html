@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+</head>
+
+<body>
+  <div>
+    <header class="header">
+      <h1>Реєстрація</h1>
+      <nav>
+        <a href="../index.html">Головна</a>
+        <a href="./articles.html">Статті</a>
+        <a href="./catalog.html">Каталог</a>
+        <a href="./contacts.html">Контакти</a>
+        <a href="./gallery.html">Галерея</a>
+        <a href="./page-nav.html">Навігація</a>
+        <a href="./registration.html">Реєстрація</a>
+      </nav>
+    </header>
+  </div>
+  <main>
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset>
+        <legend>ФІО</legend>
+        <div>
+          <label for="firstname">Ім'я</label>
+          <input id="firstname" name="firstname" placeholder="Ім'я" type="text">
+        </div>
+        <div>
+          <label for="surename">Прізвище</label>
+          <input id="surename" name="surename" placeholder="Прізвище" type="text">
+        </div>
+        <div>
+          <label for="file">Завантажити файл</label>
+          <input id="file" name="file" type="file">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Єлектронні данні</legend>
+        <div>
+          <label for="email">Єлектронна пошта</label>
+          <input id="email" name="email" placeholder="email" type="email">
+        </div>
+        <div>
+          <label for="password">Пароль</label>
+          <input id="password" name="password" placeholder="цифри та літери" type="password">
+        </div>
+        <div>
+          <label for="website">Веб-сайт</label>
+          <input id="website" name="website" placeholder="Веб-сайт" type="text" value="mysite.name">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Оберіть стать та дату народження</legend>
+        <div>
+          <div>
+            <label for="male">Чоловіча</label>
+            <input id="male" name="sex" type="radio" size="50" value="male">
+          </div>
+          <div>
+            <label for="male">Жіноча</label>
+            <input id="female" name="sex" type="radio" size="50" value="female">
+          </div>
+          <div>
+            <label for="male">Інша</label>
+            <input checked id="other" name="sex" type="radio" size="50" value="other">
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="date">Дата народження</label>
+            <input id="date" name="date" type="date">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Обрати кухню</legend>
+        <div>
+          <label for="kitchen-ua">Українська</label>
+          <input checked="" id="kitchen-ua" name="kitchen" type="checkbox" value="ukrainian">
+        </div>
+        <div>
+          <label for="kitchen-us">Амереканська</label>
+          <input id="kitchen-us" name="kitchen" type="checkbox" value="american">
+        </div>
+        <div>
+          <label for="kitchen-fr">Французька</label>
+          <input id="kitchen-fr" name="kitchen" type="checkbox" value="french">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Про себе</legend>
+        <div>
+          <label for="comments">Розкажіть о собі</label>
+          <textarea name="comments" id="comments" cols="35" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div>
+          <button type="submit">Надіслати</button>
+        </div>
+        <div>
+          <button type="reset">Оновити</button>
+        </div>
+      </fieldset>
+
+    </form>
+  </main>
+
+  <footer>
+    <p>© Kurinaki Yevgen</p>
+  </footer>
+
+</body>
+
+</html>
